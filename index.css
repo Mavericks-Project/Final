@@ -222,7 +222,7 @@ body{
     background:#026c9a
   }
   .courses{
-    height: 130vh;
+    height: 180vh;
     width: 100%;
     display: flex;
     flex-direction:column;
@@ -241,6 +241,7 @@ body{
   }
   .courses p{
     text-align: center;
+
     font-family: 'Poppins', sans-serif;
   }
 
@@ -302,11 +303,12 @@ body{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 28px;
 }
 .det .dates{
     font-weight: 300;
+    font-size: 17px;
     font-family: 'Poppins', sans-serif;
 }
 .top{
