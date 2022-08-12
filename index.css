@@ -710,7 +710,8 @@ body div.learn button {
  .footer {
     font-family: "Poppins";
     background-color: #009FE3;
-    padding: 32px 57px;
+    /* padding: 32px 57px; */
+    height: 53vh;
   }
  .footer .first {
     display: flex;
