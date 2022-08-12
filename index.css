@@ -140,7 +140,7 @@ body{
 .applying{
     height:70%;
     width: 90%;
-    background-color: red;
+    background-color: white;
     margin-top: -30em;
     border-radius: 10px;
 }
@@ -157,7 +157,7 @@ body{
     height: 100%;
     width: 100%;
     background-color: green;
-    margin-top: -0.5em;
+    margin-top: 2em;
     display: flex;
 }
  .part1{
