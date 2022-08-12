@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    background-color: #009fe3;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    width: 100%;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-top: 25px;
+}
+.header ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 40vh;
+    background-position: fixed;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -60%);
+    font-weight: bold;
+  }
+  .paragraph{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-60%, -60%);
+  }
+.image img{
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.back{
+    width: 100%;
+    height: 50vh;
+    background-image: url("image 18.png");
+    background-position: center;
+    background-size: cover;
+}
+.hero{
+    width: 100%;
+    height: 150vh;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.form{
+    width: 90%;
+    max-width: 600px;
+    justify-content: center;
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: none;
+    color: black;
+    background: #DFE1E7;
+    ;
+    font-size: 15px;
+    border-radius: 4px;
+}
+lebel{
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+}
+button{
+    padding: 10PX 0;
+    color: #fff;
+    outline: none;
+    background: #009fe3;
+    border: 1px solid #fff;
+    width: 30%;
+    cursor: pointer;
+    position: right;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .input-group{
+    flex-basis: 48%;
+}
+.logo{
+    margin-right: 700px;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 2px;
+    right: 8px;
+  }
+  .container {
+    position: center;
+    text-align: center;
+  }
+  .bottom-left {
+    position: center;
+    bottom: 1400px;
+    left: 16px;
+  }
+
+  .container{
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+  .move-me{
+    width: 100px;
+    height: 300px;
+    position: relative;
+    top: 400px;
+    right: 600px;
+    border: 3px;
+  }
+
+  /* footer */
+
+.footer p {
+    font-family: "Poppins";
+    font-size: 12px;
+    margin: 0;
+    line-height: 20px;
+    color: white;
+    display: block;
+  }
+  .footer {
+    background-color: #009FE3;
+    padding: 18px 30px;
+    width: 100%;
+    height: 50vh;
+  }
+  .footer .first {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+  .footer .first .head {
+    font-weight: bold;
+  }
+  .footer .first .two {
+    margin-left: -50px;
+  }
+  .footer .first .four {
+   
+    
+    margin-top: 20px;
+    padding: 10px 15px;
+    width: 330px;
+    height: 190px;
+  }
+  .footer .first .four .normal1 {
+    font-size: 11px;
+  }
+  .footer .first .four input {
+    padding: 8px 10px;
+    border: none;
+    margin: 0;
+    border-radius: 4px;
+    outline: none;
+  }
+  .footer .first .four button {
+    background-color: #0081FE;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin-top: 4px;
+  }
+  .footer .contacts {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .footer .contacts .five {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .contacts .five p {
+    margin-right: 20px;
+  }
+  
+  @media only screen and (min-width: 500px) {
+    .footer .first {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 5px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .footer .first {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+   .footer .first .two {
+      margin-left: 4px;
+    }
+   .footer .first .four {
+      background-color: #19a8e6;
+      width: 330px;
+      height: 190px;
+      margin-top: 0;
+    }
+   .footer .first .four input {
+      padding: 10px 10px 10px 10px;
+      border: none;
+      margin: 0;
+      border-bottom-left-radius: 4px;
+      border-top-left-radius: 4px;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+      outline: none;
+    }
+   .footer .first .four button {
+      background-color: #0081FE;
+      border: none;
+      padding: 10px 8px;
+      margin-left: -4px;
+      border-bottom-right-radius: 4px;
+      border-top-right-radius: 4px;
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+      margin-top: 0;
+    }
+   .footer .first .four .normal1 {
+      margin-top: 13px;
+      font-size: 10px;
+      margin-bottom: 20px;
+    }
+   .footer .first .four .head {
+      margin-bottom: 10px;
+    }
+   .footer .contacts {
+      margin-right: 20px;
+    }
+   .footer .contacts .five {
+      margin-right: 150px;
+    }
+  }
+  @media only screen and (min-width: 930px) {
+   .footer {
+      font-family: "Poppins";
+      background-color: #009FE3;
+      padding: 17px 42px;
+    }
+   .footer .first {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+   .footer .first .two {
+      margin-left: 4px;
+    }
+   .footer .first .four {
+      background-color: #19a8e6;
+      width: 254px;
+      height: 158px;
+      padding: 22px 40px;
+      margin-top: 0;
+    }
+   .footer .first .four input {
+      padding: 16px 16px 16px 16px;
+      border: none;
+      margin: 0;
+      border-bottom-left-radius: 4px;
+      border-top-left-radius: 4px;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+      outline: none;
+    }
+   .footer .first .four button {
+      background-color: #0081FE;
+      border: none;
+      padding: 16px 12px;
+      margin-left: -4px;
+      border-bottom-right-radius: 4px;
+      border-top-right-radius: 4px;
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+      margin-top: 0;
+    }
+   .footer .first .four .normal1 {
+      margin-top: 13px;
+      font-size: 10px;
+      margin-bottom: 20px;
+    }
+   .footer .first .four .head {
+      margin-bottom: 10px;
+    }
+   .footer .contacts {
+      margin-right: 20px;
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      margin-top: 45px;
+      margin-bottom: 45px;
+      padding-right: 100px;
+    }
+   .footer .contacts .five {
+      margin-right: 200px;
+    }
+  }
+  @media only screen and (min-width: 1111px) {
+   .footer {
+      font-family: "Poppins";
+      background-color: #009FE3;
+      padding: 32px 57px;
+    }
+   .footer .first {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 135px;
+      padding-right: 135px;
+    }
+   .footer .first .two {
+      margin-left: 4px;
+    }
+   .footer .first .four {
+      background-color: #19a8e6;
+      width: 330px;
+      height: 190px;
+      padding: 22px 40px;
+      margin-top: 0;
+    }
+   .footer .first .four input {
+      padding: 16px 16px 16px 16px;
+      border: none;
+      margin: 0;
+      border-bottom-left-radius: 4px;
+      border-top-left-radius: 4px;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+      outline: none;
+    }
+   .footer .first .four button {
+      background-color: #0081FE;
+      border: none;
+      padding: 16px 14px;
+      margin-left: -4px;
+      border-bottom-right-radius: 4px;
+      border-top-right-radius: 4px;
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+      margin-top: 0;
+    }
+   .footer .first .four .normal1 {
+      margin-top: 13px;
+      font-size: 10px;
+      margin-bottom: 20px;
+    }
+   .footer .first .four .head {
+      margin-bottom: 10px;
+    }
+  .contacts {
+      margin-right: 20px;
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      margin-top: 45px;
+      margin-bottom: 45px;
+      padding-right: 135px;
+    }
+  .contacts .five {
+      margin-right: 250px;
+    }
+  }
