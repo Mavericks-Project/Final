@@ -302,13 +302,13 @@ body{
     color: #009FE3;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 17px;
     line-height: 28px;
 }
 .det .dates{
     font-weight: 300;
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
 }
 .top{
